@@ -1,0 +1,5 @@
+﻿.idea
+.vagrant
+*.log
+*.pcap
+*.deb

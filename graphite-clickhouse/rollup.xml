@@ -1,0 +1,9 @@
+<graphite_rollup>
+    <default>
+        <function>avg</function>
+        <retention>
+            <age>0</age>
+            <precision>60</precision>
+        </retention>
+    </default>
+</graphite_rollup>

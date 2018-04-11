@@ -1,0 +1,15 @@
+apiVersion: 1
+
+providers:
+ - name: 'Clickhouse Graphite Metrics'
+   orgId: 1
+   folder: ''
+   type: file
+   options:
+     path: /var/lib/grafana/dashboards/clickhouse_metrics_dashboard.json
+ - name: 'Clickhouse Query Metrics'
+   orgId: 1
+   folder: ''
+   type: file
+   options:
+     path: /var/lib/grafana/dashboards/clickhouse_queries_dashboard.json
